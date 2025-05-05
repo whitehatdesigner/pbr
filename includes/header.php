@@ -65,12 +65,18 @@
                             <li>|</li>
                             <li class="dropdown-menu"><a href="javascript:void(0)">My Accounts</a>
                                 <ul class="sub-menu">
-                                    <li><a class="dropdown-item" href="login.php"><i class="fa-solid fa-user"></i> Login / Register</a></li>
-                                    <li><a class="dropdown-item" href="dashboard.php"><i class="fa-solid fa-tv"></i> Dashboard</a></li>
-                                    <li><a class="dropdown-item" href="cart.php"><i class="fa-solid fa-cart-shopping"></i> My Cart</a></li>
-                                    <li><a class="dropdown-item" href="wishlist.php"><i class="fa-solid fa-heart"></i> Wishlist</a></li>
-                                    <li><a class="dropdown-item" href="my-profile.php"><i class="fa-solid fa-user"></i> My Profile</a></li>
-                                    <li class="logout-user"><a class="dropdown-item" href="javascript:void(0)"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a></li>
+                                    <li><a class="dropdown-item" href="login.php"><i class="fa-solid fa-user"></i> Login
+                                            / Register</a></li>
+                                    <li><a class="dropdown-item" href="dashboard.php"><i class="fa-solid fa-tv"></i>
+                                            Dashboard</a></li>
+                                    <li><a class="dropdown-item" href="cart.php"><i
+                                                class="fa-solid fa-cart-shopping"></i> My Cart</a></li>
+                                    <li><a class="dropdown-item" href="wishlist.php"><i class="fa-solid fa-heart"></i>
+                                            Wishlist</a></li>
+                                    <li><a class="dropdown-item" href="dashboard.php"><i class="fa-solid fa-user"></i>
+                                            My Profile</a></li>
+                                    <li class="logout-user"><a class="dropdown-item" href="javascript:void(0)"><i
+                                                class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a></li>
                                 </ul>
                             </li>
 
@@ -82,13 +88,13 @@
                         <ul>
                             <li class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></li>
 
-                            <li><a href="javascript:void(0)"><span class="icon"><i
+                            <li><a href="wishlist.php"><span class="icon"><i
                                             class="fa-regular fa-heart"></i></span> <span
-                                        class="wishlist_count count">0</span></a></li>
+                                        class="wishlist_count count">03</span></a></li>
 
-                            <li><a href="javascript:void(0)"><span class="icon"><i
+                            <li><a href="javascript:void(0)" onclick="toggleCartSidebar()"><span class="icon"><i
                                             class="fa-solid fa-cart-shopping"></i></span> <span
-                                        class="wishlist_count count">0</span></a></li>
+                                        class="wishlist_count count">03</span></a></li>
                             <li class="menu-icon">
                                 <i class="fa-solid fa-bars"></i>
                             </li>
@@ -108,3 +114,6 @@
         </div>
     </div>
 </header>
+
+
+<?php include('includes/sidebarCart.php') ?>

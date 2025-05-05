@@ -43,6 +43,14 @@
                         <button type="submit" class="btn btn-primary">Login</button>
                         <a href="#forgot-password" class="forgot-link">Forgot Password?</a>
                     </form>
+
+                    <div class="or-separator"><span>OR</span></div>
+
+                    <!-- Google Login Button -->
+                    <a href="google-login.php" class="google-btn">
+                        <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google logo">
+                        Continue with Google
+                    </a>
                 </div>
 
                 <!-- Signup Form -->
@@ -88,24 +96,24 @@
         </section>
 
         <!-- Forgot Password Modal (Add before </section>) -->
-<div id="forgot-password-modal" class="modal">
-    <div class="modal-content">
-        <span class="close-modal" onclick="closeModal()">&times;</span>
-        <h2>Reset Password</h2>
-        <form id="forgot-password-form">
-            <div class="form-group">
-                <label>Email Address</label>
-                <input type="email" placeholder="Enter your registered email" required>
+        <div id="forgot-password-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal" onclick="closeModal()">&times;</span>
+                <h2>Reset Password</h2>
+                <form id="forgot-password-form">
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="Enter your registered email" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Reset Link</button>
+                </form>
+                <div class="success-message" style="display:none;">
+                    <i class="success-icon">✓</i>
+                    <h3>Email Sent!</h3>
+                    <p>We've sent a password reset link to your email.</p>
+                </div>
             </div>
-            <button type="submit" class="btn btn-primary">Send Reset Link</button>
-        </form>
-        <div class="success-message" style="display:none;">
-            <i class="success-icon">✓</i>
-            <h3>Email Sent!</h3>
-            <p>We've sent a password reset link to your email.</p>
         </div>
-    </div>
-</div>
     </main>
 
 
