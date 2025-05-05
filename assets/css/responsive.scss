@@ -1,0 +1,52 @@
+@media (max-width:992px) {
+    header{
+        // background: #fff;
+        .store-details{
+            display: none;
+        }
+        .site_link{
+            display: none;
+        }
+        .menu-icon{
+            display: block;
+            font-size: 24px;
+        }
+        .main-top-header{
+            justify-content: space-between;
+            .right-header{
+                width: 50%;
+            }
+            .navlinks{
+                justify-content: end;
+                padding: 15px 10px 5px;
+                &::after{
+                    top: 0;
+                }
+            }
+            .logo{
+                a{
+                    img{
+                        width: 100%;
+                        margin-bottom: -70px;
+                    }
+                }
+
+            }
+        }
+
+    }
+}
+
+@media (max-width:450px) {
+    header .main-top-header .navlinks{
+        padding: 10px 10px 0px;
+        border-radius: 8px;
+    }
+    header .main-top-header .navlinks::after {
+        display: none;
+    }
+
+    p{
+        font-size: 14px;
+    }
+}
