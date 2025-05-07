@@ -58,6 +58,26 @@ a{
   }
 }
 
+.btn-primary{
+  padding: 10px 20px;
+  background-color: #75aacd;
+  display: inline-block;
+  border-radius: 20px;
+  color: #fff;
+  transition: all .2s linear;
+
+  &:hover{
+  background-color: #134464;
+  }
+  @media (max-width:1150px) {
+    padding: 10px 16px;
+  }
+  @media (max-width:768px) {
+    padding: 5px 10px;
+   font-size: 14px;
+  }
+}
+
 .section-title{
   font-size: 26px;
   color: #333333;

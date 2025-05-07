@@ -72,6 +72,8 @@ $('.brand-icon').owlCarousel({
 })
 
 
+
+
 // Checkout Process Controller
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize checkout steps
@@ -435,4 +437,5 @@ document.head.appendChild(style);
 
 
 
-// =============================================
+
+  

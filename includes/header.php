@@ -1,3 +1,4 @@
+
 <header>
     <div class="highlight">
         <p>For any sale and product regarding query you may contact us</p>
@@ -56,12 +57,12 @@
                 <div class="navlinks">
                     <div class="site_link">
                         <ul>
-                            <li><a href="javascript:void(0)">Home</a></li>
+                            <li><a href="./">Home</a></li>
                             <li>|</li>
-                            <li><a href="javascript:void(0)">About Us</a></li>
+                            <li><a href="about-us.php">About Us</a></li>
 
                             <li>|</li>
-                            <li><a href="javascript:void(0)">Products</a></li>
+                            <li><a href="product.php">Products</a></li>
                             <li>|</li>
                             <li class="dropdown-menu"><a href="javascript:void(0)">My Accounts</a>
                                 <ul class="sub-menu">

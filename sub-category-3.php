@@ -22,6 +22,12 @@
 
     <main class="product-page">
         <div class="container">
+        <div class="breadcrumbs">
+                    <a href="#">product</a> >
+                    <a href="products.php">sub-category1</a> >
+                    <a href="products.php?category=Glass Labwares">sub-category2</a> >
+                    sub-category3
+                </div>
             <div class="main-product-page">
                 <h3 class="section-title">Choose Sub Category 3:</h3>
                 <div class="product-grid">

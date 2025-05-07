@@ -115,7 +115,7 @@
                             <span class="cruent_price">$XX.00</span>
                         </div>
                         <div class="buy-btn">
-                            <a href="javascript:void(0)">Add to Cart</a>
+                            <a href="javascript:void(0)" class="add-product-btn">Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -679,7 +679,13 @@
 
     <section class="blog-section">
         <div class="container">
-            <h3 class="section-title">Our Blog</h3>
+        <div class="heading_link">
+        <h3 class="section-title">Our Blog </h3>
+                <div class="link-btn">
+                    <a href="javascript:void(0)">View More <i class="fa-solid fa-angles-right"></i></a>
+                </div>
+            </div>
+            
             <div class="main-blog-section">
 
                 <div class="blog-card">

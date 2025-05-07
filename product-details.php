@@ -6,76 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PRIME LAB SOLUTIONS INC - Product Details</title>
     <?php include('includes/top-header.php') ?>
-    <style>
-        
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-
-        }
-        
-        th, td {
-            padding: 12px 15px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-        
-        th {
-            background-color: #f2f2f2;
-            font-weight: bold;
-        }
-        
-        tr:hover {
-            background-color: #f5f5f5;
-        }
-        
-        .price {
-            font-weight: bold;
-            color: #0066cc;
-        }
-        
-        .quantity-control {
-            display: flex;
-            align-items: center;
-        }
-        
-        .quantity-input {
-            width: 40px;
-            text-align: center;
-            margin: 0 5px;
-        }
-        
-        .add-to-cart {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            padding: 8px 15px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 14px;
-            margin: 4px 2px;
-            cursor: pointer;
-            border-radius: 4px;
-        }
-        
-        .add-to-cart:hover {
-            background-color: #45a049;
-        }
-        
-        .quantity-btn {
-            background-color: #f2f2f2;
-            border: 1px solid #ddd;
-            padding: 5px 10px;
-            cursor: pointer;
-            border-radius: 3px;
-        }
-        
-        .quantity-btn:hover {
-            background-color: #e6e6e6;
-        }
-    </style>
 </head>
 
 <body>
@@ -139,6 +69,9 @@
 
                         <div class="product-price">$42.61 - $342.3</div>
 
+                        <div class="buy-btn">
+                            <a href="#">Add Wishlist</a>
+                        </div>
                     </div>
                 </div>
 

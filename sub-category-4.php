@@ -22,6 +22,12 @@
 
     <main class="product-page">
         <div class="container">
+        <div class="breadcrumbs">
+                    <a href="#">product</a> >
+                    <a href="products.php">sub-category1</a> >
+                    <a href="products.php?category=Glass Labwares">sub-category2</a> >
+                    sub-category3
+                </div>
             <div class="main-product-page">
                 <h3 class="section-title">Choose Sub Category 4:</h3>
                 <div class="product-grid">
@@ -31,7 +37,7 @@
                             <img src="assets/upload/product/glass-beaker.jpg" alt="Glass Beaker">
                             <div class="product-action-wrap">
                                 <div class="product-action">
-                                    <a href="javascript:void(0)">
+                                    <a href="product-details.php">
                                         <i class="far fa-eye"></i>
                                     </a>
                                     <a href="javascript:void(0)">
@@ -44,7 +50,7 @@
                         <span class="type discount">5% Off</span>
 
                         <div class="product-content">
-                            <h3 class="product-title"><a href="javascript:void(0)">Glass Beaker (Low Form)</a></h3>
+                            <h3 class="product-title"><a href="product-details.php">Glass Beaker (Low Form)</a></h3>
                             <div class="product-rate">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -72,7 +78,7 @@
                             <img src="assets/upload/product/measuring-cylinder.jpg" alt="Measuring Cylinder">
                             <div class="product-action-wrap">
                                 <div class="product-action">
-                                    <a href="javascript:void(0)">
+                                    <a href="product-details.php">
                                         <i class="far fa-eye"></i>
                                     </a>
                                     <a href="javascript:void(0)">
@@ -83,7 +89,7 @@
                         </div>
 
                         <div class="product-content">
-                            <h3 class="product-title"><a href="javascript:void(0)">Measuring Cylinder (Class A)</a></h3>
+                            <h3 class="product-title"><a href="product-details.php">Measuring Cylinder (Class A)</a></h3>
                             <div class="product-rate">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
