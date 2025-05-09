@@ -36,12 +36,11 @@
                         <h5>Quick Links</h5>
 
                         <ul>
-                            <li><a href="javascript:void(0)">About Us</a></li>
-                            <li><a href="javascript:void(0)">Contact Us</a></li>
+                            <li><a href="about-us.php">About Us</a></li>
+                            <li><a href="contact-us.php">Contact Us</a></li>
                             <li><a href="javascript:void(0)">Privacy Policy</a></li>
                             <li><a href="javascript:void(0)">Terms & Conditions</a></li>
-                            <li><a href="javascript:void(0)">Delivery Information</a></li>
-                            <li><a href="javascript:void(0)">Orders and Returns</a></li>
+                            <li><a href="my-order.php">Orders and Returns</a></li>
                         </ul>
                     </div>
                     <div class="col">
@@ -49,10 +48,9 @@
 
                         <ul>
                             <li><a href="javascript:void(0)">Help & FAQs</a></li>
-                            <li><a href="javascript:void(0)">My Account</a></li>
-                            <li><a href="javascript:void(0)">Order History</a></li>
-                            <li><a href="javascript:void(0)">Wishlist</a></li>
-                            <li><a href="javascript:void(0)">Newsletter</a></li>
+                            <li><a href="dashboard.php">My Account</a></li>
+                            <li><a href="my-order.php">Order History</a></li>
+                            <li><a href="wishlist.php">Wishlist</a></li>
                             <li><a href="javascript:void(0)">Purchasing Policy</a></li>
                         </ul>
                     </div>

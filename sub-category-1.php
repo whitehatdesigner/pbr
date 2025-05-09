@@ -22,29 +22,26 @@
 
     <main class="product-page">
         <div class="container">
-        <div class="breadcrumbs">
-                    <a href="#">product</a> >
-                    <a href="products.php">sub-category1</a> >
-                    <a href="products.php?category=Glass Labwares">sub-category2</a> >
-                    sub-category3
-                </div>
+            <div class="breadcrumbs">
+                <a href="#">product</a> >
+                Glass Labwares
+            </div>
             <div class="main-product-page">
-                <h3 class="section-title">Choose Sub Category 1:</h3>
+                <h3 class="section-title">Glass Labwares:</h3>
                 <div class="product-grid">
-                    <?php
-    $categories = [
-    "Re-Usable Glass Labwares",
-      "Disposable Glass Labwares",
-    ];
 
-    foreach ($categories as $cat) {
-        echo '
-        <div class="product-card-box">
-            <img src="assets/upload/categories/dummy-img.jpg" alt="' . $cat . '">
-            <a href="sub-category-2.php"><h3>' . $cat . '</h3></a>
-        </div>';
-    }
-    ?>
+                    <div class="product-card-box">
+                        <img src="assets/upload/categories/dummy-img.jpg" alt="Re-Usable Glass Labwares">
+                        <a href="sub-category-2.php">
+                            <h3>Re-Usable Glass Labwares</h3>
+                        </a>
+                    </div>
+                    <div class="product-card-box">
+                        <img src="assets/upload/categories/dummy-img.jpg" alt="Disposable Glass Labwares">
+                        <a href="#">
+                            <h3>Disposable Glass Labwares</h3>
+                        </a>
+                    </div>
                 </div>
             </div>
 

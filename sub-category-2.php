@@ -22,34 +22,57 @@
 
     <main class="product-page">
         <div class="container">
-        <div class="breadcrumbs">
-                    <a href="#">product</a> >
-                    <a href="products.php">sub-category1</a> >
-                    <a href="products.php?category=Glass Labwares">sub-category2</a> >
-                    sub-category3
-                </div>
+            <div class="breadcrumbs">
+                <a href="products.php">product</a> >
+                <a href="sub-category-1.php">Glass Labwares</a> >
+                Re-Usable Glass Labwares
+            </div>
             <div class="main-product-page">
-                <h3 class="section-title">Choose Sub Category 2:</h3>
+                <h3 class="section-title">Re-Usable Glass Labwares</h3>
                 <div class="product-grid">
-                    <?php
-    $categories = [
-    "Beakers",
-      "Cylinder",
-      "Flasks",
-      "Glass Media/Storage",
-      "Funnels",
-      "Disposable Borosilicate Glass Pasteur",
-      "Glass Tubes (Culture Test Tubes)"
-    ];
 
-    foreach ($categories as $cat) {
-        echo '
-        <div class="product-card-box">
-            <img src="assets/upload/categories/dummy-img.jpg" alt="' . $cat . '">
-            <a href="sub-category-3.php"><h3>' . $cat . '</h3></a>
-        </div>';
-    }
-    ?>
+                    <div class="product-card-box">
+                        <img src="assets/upload/categories/dummy-img.jpg" alt="Beakers">
+                        <a href="#">
+                            <h3>Beakers</h3>
+                        </a>
+                    </div>
+                    <div class="product-card-box">
+                        <img src="assets/upload/categories/dummy-img.jpg" alt="Cylinder">
+                        <a href="#">
+                            <h3>Cylinder</h3>
+                        </a>
+                    </div>
+                    <div class="product-card-box">
+                        <img src="assets/upload/categories/dummy-img.jpg" alt="Flasks">
+                        <a href="sub-category-3.php">
+                            <h3>Flasks</h3>
+                        </a>
+                    </div>
+                    <div class="product-card-box">
+                        <img src="assets/upload/categories/dummy-img.jpg" alt="Glass Media/Storage">
+                        <a href="#">
+                            <h3>Glass Media/Storage</h3>
+                        </a>
+                    </div>
+                    <div class="product-card-box">
+                        <img src="assets/upload/categories/dummy-img.jpg" alt="Funnels">
+                        <a href="#">
+                            <h3>Funnels</h3>
+                        </a>
+                    </div>
+                    <div class="product-card-box">
+                        <img src="assets/upload/categories/dummy-img.jpg" alt="Disposable Borosilicate Glass Pasteur">
+                        <a href="#">
+                            <h3>Disposable Borosilicate Glass Pasteur</h3>
+                        </a>
+                    </div>
+                    <div class="product-card-box">
+                        <img src="assets/upload/categories/dummy-img.jpg" alt="Glass Tubes (Culture Test Tubes)">
+                        <a href="#">
+                            <h3>Glass Tubes (Culture Test Tubes)</h3>
+                        </a>
+                    </div>
                 </div>
             </div>
 

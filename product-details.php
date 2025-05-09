@@ -60,11 +60,8 @@
 
                         <span class="new-badge">New!</span>
 
-                        <h1 class="product-title">Flask, Filtering / Erlenmeyer, Heavy Wall, Graduated</h1>
-                        <p>This flasks, without tabulation, are blown from a Borosilicate 3.3 glass tube to ensure
-                            uniform wall thickness and to ensure maximum strength. These flasks are graduated to show
-                            approximate capacity. All flasks have permanent white enamel graduations and marking spots.
-                            Marked "Filter Flask" in order to avoid confusion with similar sizes of Erlenmeyer Flasks.
+                        <h1 class="product-title">Shake Flasks, 3 Deep Baffles, Reinforced Top</h1>
+                        <p>Shake flasks with baffles are widely used in microbiology, biotechnology, and pharmaceutical research laboratories for various applications such as bacterial or yeast fermentation, protein expression, and enzyme production. They are available in different sizes and configurations to accommodate specific volume requirements and experimental needs.
                         </p>
 
                         <div class="product-price">$42.61 - $342.3</div>
@@ -86,10 +83,8 @@
                         <tr>
                             <th>Catalog Number</th>
                             <th>Description</th>
-                            <th>Capacity</th>
-                            <th>Graduation Interval</th>
-                            <th>Graduation Range</th>
-                            <th>Rubber Stopper</th>
+                            <th>Approx O.D. x Height</th>
+                            <th>Availablity</th>
                             <th class="fixed-col">Price</th>
                             <th class="fixed-col">Qty</th>
                             <th class="fixed-col">Action</th>
@@ -113,54 +108,44 @@
         // Flask data
         const flaskData = [
             {
-                catalogNumber: "231.502.05",
-                description: "Flask, Filtering, Heavy Well, Graduated, 250mL",
-                capacity: "250 ml",
-                graduationInterval: "25",
-                graduationRange: "75-250 ml",
-                rubberStopper: "6",
+                catalogNumber: "235.202.01",
+                description: "Flask, Shake, 250ml, Reinforced Top, 3 Deep Baffles",
+                ApproxODHeight: "82x134 mm",
+                Availablity: "ETA 2-3 Weeks	",
                 price: "$42.61/Each",
                 quantity: 1
             },
-            {
-                catalogNumber: "231.502.06",
-                description: "Flask, Filtering, Heavy Well, Graduated, 500mL",
-                capacity: "500 ml",
-                graduationInterval: "50",
-                graduationRange: "150-500 ml",
-                rubberStopper: "7",
-                price: "$98.22/Each",
-                quantity: 4
+                     {
+                catalogNumber: "235.202.01",
+                description: "Flask, Shake, 250ml, Reinforced Top, 3 Deep Baffles",
+                ApproxODHeight: "82x134 mm",
+                Availablity: "ETA 2-3 Weeks	",
+                price: "$42.61/Each",
+                quantity: 1
             },
-            {
-                catalogNumber: "231.502.07",
-                description: "Flask, Filtering, Heavy Well, Graduated, 1000mL",
-                capacity: "1000 ml",
-                graduationInterval: "50",
-                graduationRange: "300-1000 ml",
-                rubberStopper: "8",
-                price: "$133.35/Each",
-                quantity: 4
+                      {
+                catalogNumber: "235.202.01",
+                description: "Flask, Shake, 250ml, Reinforced Top, 3 Deep Baffles",
+                ApproxODHeight: "82x134 mm",
+                Availablity: "ETA 2-3 Weeks	",
+                price: "$42.61/Each",
+                quantity: 1
             },
-            {
-                catalogNumber: "231.502.08",
-                description: "Flask, Filtering, Heavy Well, Graduated, 2000mL",
-                capacity: "2000 ml",
-                graduationInterval: "200",
-                graduationRange: "600-1800 ml",
-                rubberStopper: "9",
-                price: "$248.66/Each",
-                quantity: 4
+                      {
+                catalogNumber: "235.202.01",
+                description: "Flask, Shake, 250ml, Reinforced Top, 3 Deep Baffles",
+                ApproxODHeight: "82x134 mm",
+                Availablity: "ETA 2-3 Weeks	",
+                price: "$42.61/Each",
+                quantity: 1
             },
-            {
-                catalogNumber: "231.502.09",
-                description: "Flask, Filtering, Heavy Well, Graduated, 4000mL",
-                capacity: "4000 ml",
-                graduationInterval: "500",
-                graduationRange: "1500-3500 ml",
-                rubberStopper: "12",
-                price: "$342.30/Each",
-                quantity: 4
+                       {
+                catalogNumber: "235.202.01",
+                description: "Flask, Shake, 250ml, Reinforced Top, 3 Deep Baffles",
+                ApproxODHeight: "82x134 mm",
+                Availablity: "ETA 2-3 Weeks	",
+                price: "$42.61/Each",
+                quantity: 1
             }
         ];
 
@@ -174,10 +159,9 @@
                 row.innerHTML = `
                     <td>${flask.catalogNumber}</td>
                     <td> <span class="wrap">${flask.description}</span> </td>
-                    <td>${flask.capacity}</td>
-                    <td>${flask.graduationInterval}</td>
-                    <td>${flask.graduationRange}</td>
-                    <td>${flask.rubberStopper}</td>
+                    <td>${flask.ApproxODHeight}</td>
+                    <td>${flask.Availablity}</td>
+       
                     <td class="price fixed-col">${flask.price}</td>
                     <td class="fixed-col">
                         <div class="quantity-control">

@@ -22,30 +22,34 @@
 
     <main class="product-page">
         <div class="container">
-        <div class="breadcrumbs">
-                    <a href="#">product</a> >
-                    <a href="products.php">sub-category1</a> >
-                    <a href="products.php?category=Glass Labwares">sub-category2</a> >
-                    sub-category3
-                </div>
+            <div class="breadcrumbs">
+                <a href="products.php">product</a> >
+                <a href="sub-category-1.php">Glass Labwares</a> >
+                <a href="sub-category-2.php">Re-Usable Glass Labwares</a> >
+                Flasks
+            </div>
             <div class="main-product-page">
-                <h3 class="section-title">Choose Sub Category 3:</h3>
+                <h3 class="section-title">Flasks:</h3>
                 <div class="product-grid">
-                    <?php
-    $categories = [
-    "Shake Flask",
-      "Iodine Flasks",
-      "Erlenmeyer Flasks (Titration Flask)",
-    ];
 
-    foreach ($categories as $cat) {
-        echo '
-        <div class="product-card-box">
-            <img src="assets/upload/categories/dummy-img.jpg" alt="' . $cat . '">
-            <a href="sub-category-4.php"><h3>' . $cat . '</h3></a>
-        </div>';
-    }
-    ?>
+                    <div class="product-card-box">
+                        <img src="assets/upload/categories/dummy-img.jpg" alt="Shake Flask">
+                        <a href="sub-category-4.php">
+                            <h3>Shake Flask</h3>
+                        </a>
+                    </div>
+                    <div class="product-card-box">
+                        <img src="assets/upload/categories/dummy-img.jpg" alt="Iodine Flasks">
+                        <a href="#">
+                            <h3>Iodine Flasks</h3>
+                        </a>
+                    </div>
+                    <div class="product-card-box">
+                        <img src="assets/upload/categories/dummy-img.jpg" alt="Erlenmeyer Flasks (Titration Flask)">
+                        <a href="#">
+                            <h3>Erlenmeyer Flasks (Titration Flask)</h3>
+                        </a>
+                    </div>
                 </div>
             </div>
 
